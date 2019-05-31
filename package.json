@@ -16,7 +16,9 @@
     "nuxt": "^2.5.1",
     "reqlim": "^0.0.0"
   },
-  "keywords": [
-    "wedding"
-  ]
+  "dev-dependencies": {
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0"
+  },
+  "keywords": ["wedding"]
 }

@@ -1,14 +1,50 @@
 <template>
   <svg
-    :width="width"
-    :height="height"
-    viewBox="0 0 452 342"
     xmlns="http://www.w3.org/2000/svg"
+    x="0px"
+    y="0px"
+    width="48"
+    height="48"
+    viewBox="0 0 48 48"
+    style=" fill:#000000;"
   >
-    <g fill="none" fill-rule="evenodd">
-      <path d="M139 330l-1-2c-2-4-2-8-1-13H29L189 31l67 121 22-16-67-121c-1-2-9-14-22-14-6 0-15 2-22 15L5 303c-1 3-8 16-2 27 4 6 10 12 24 12h136c-14 0-21-6-24-12z" fill="#00C58E"/>
-      <path d="M447 304L317 70c-2-2-9-15-22-15-6 0-15 3-22 15l-17 28v54l39-67 129 230h-49a23 23 0 0 1-2 14l-1 1c-6 11-21 12-23 12h76c3 0 17-1 24-12 3-5 5-14-2-26z" fill="#108775"/>
-      <path d="M376 330v-1l1-2c1-4 2-8 1-12l-4-12-102-178-15-27h-1l-15 27-102 178-4 12a24 24 0 0 0 2 15c4 6 10 12 24 12h190c3 0 18-1 25-12zM256 152l93 163H163l93-163z" fill="#2F495E" fill-rule="nonzero"/>
+    <g id="surface1">
+      <path
+        style=" fill:#CFD8DC;"
+        d="M 5 38 L 5 14 L 43 14 L 43 38 C 43 40.199219 41.199219 42 39 42 L 9 42 C 6.800781 42 5 40.199219 5 38 Z "
+      ></path>
+      <path
+        style=" fill:#F44336;"
+        d="M 43 10 L 43 16 L 5 16 L 5 10 C 5 7.800781 6.800781 6 9 6 L 39 6 C 41.199219 6 43 7.800781 43 10 Z "
+      ></path>
+      <path
+        style=" fill:#B71C1C;"
+        d="M 36 10 C 36 11.65625 34.65625 13 33 13 C 31.34375 13 30 11.65625 30 10 C 30 8.34375 31.34375 7 33 7 C 34.65625 7 36 8.34375 36 10 Z "
+      ></path>
+      <path
+        style=" fill:#B71C1C;"
+        d="M 18 10 C 18 11.65625 16.65625 13 15 13 C 13.34375 13 12 11.65625 12 10 C 12 8.34375 13.34375 7 15 7 C 16.65625 7 18 8.34375 18 10 Z "
+      ></path>
+      <path
+        style=" fill:#B0BEC5;"
+        d="M 33 3 C 31.898438 3 31 3.898438 31 5 L 31 10 C 31 11.101563 31.898438 12 33 12 C 34.101563 12 35 11.101563 35 10 L 35 5 C 35 3.898438 34.101563 3 33 3 Z "
+      ></path>
+      <path
+        style=" fill:#B0BEC5;"
+        d="M 15 3 C 13.898438 3 13 3.898438 13 5 L 13 10 C 13 11.101563 13.898438 12 15 12 C 16.101563 12 17 11.101563 17 10 L 17 5 C 17 3.898438 16.101563 3 15 3 Z "
+      ></path>
+      <path style=" fill:#90A4AE;" d="M 13 20 L 17 20 L 17 24 L 13 24 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 19 20 L 23 20 L 23 24 L 19 24 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 25 20 L 29 20 L 29 24 L 25 24 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 31 20 L 35 20 L 35 24 L 31 24 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 13 26 L 17 26 L 17 30 L 13 30 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 19 26 L 23 26 L 23 30 L 19 30 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 25 26 L 29 26 L 29 30 L 25 30 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 31 26 L 35 26 L 35 30 L 31 30 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 13 32 L 17 32 L 17 36 L 13 36 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 19 32 L 23 32 L 23 36 L 19 36 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 25 32 L 29 32 L 29 36 L 25 36 Z "></path>
+      <path style=" fill:#90A4AE;" d="M 31 32 L 35 32 L 35 36 L 31 36 Z "></path>
     </g>
   </svg>
 </template>
@@ -25,5 +61,5 @@ export default {
       default: 342
     }
   }
-}
+};
 </script>

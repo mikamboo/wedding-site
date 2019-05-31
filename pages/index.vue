@@ -1,16 +1,13 @@
 <template>
   <section>
     <div>
-      <Logo :width="350"/>
-      <h1 class="title">NUXT
-        <span class="green">JS</span>
-      </h1>
-      <h2 class="subtitle">Starter for CodeSandBox</h2>
+      <!-- <Logo :width="300"/> -->
+      <h1 class="title">Faire-Part</h1>
+      <!-- <h2 class="subtitle">31.08.2019</h2> -->
+      <img class="flyer" src="~/assets/images/sido-mike-1.png" alt="Sido & Mike">
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation
-          <IconLink/>
-        </a>
-        <NLink to="/about" class="button--grey">About</NLink>
+        <NLink to="/rsvp" class="button--green">Confimer présende</NLink>
+        <NLink to="/infos" class="button--grey">Informations utiles</NLink>
       </div>
     </div>
   </section>
@@ -29,18 +26,16 @@ export default {
 </script>
 
 <style scoped>
+.flyer {
+  width: 80%;
+}
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Niconne";
   display: block;
   font-weight: 400;
-  font-size: 100px;
   color: #2E495E;
   letter-spacing: 1px;
-  font-size: 6em;
-}
-.green {
-  color: #ccC41D;
+  font-size: 4.5em;
 }
 
 .subtitle {
