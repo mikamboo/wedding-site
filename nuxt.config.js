@@ -10,11 +10,15 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Nuxt.js starter for CSB",
+    title: "Sido & Mike 💍 31.08.2019",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Sidonie & Michaël" }
+      {
+        hid: "description",
+        name: "description",
+        content: "Mariage de Sidonie & Michaël"
+      }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -32,6 +36,10 @@ export default {
    */
   css: [],
 
+  styleResources: {
+    //sass: "./assets/sass/main.sass"
+  },
+
   /*
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/guide/plugins
@@ -44,9 +52,12 @@ export default {
    */
   modules: [
     // Doc: https://http.nuxtjs.org
-    "@nuxt/http"
+    "@nuxt/http",
+
+    // "@nuxtjs/bulma",
+
     // TODO: Remove it if you want to eject from codeSandbox
-    //"./codesandbox"
+    "./codesandbox"
   ],
 
   /*

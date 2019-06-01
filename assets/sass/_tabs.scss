@@ -1,0 +1,34 @@
+.tabs {
+  ul {
+    display: flex;
+    align-items: center;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    justify-content: center;
+    list-style: none;
+    li {
+      display: block;
+      margin: 15px;
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      text-transform: capitalize;
+
+      &:hover{
+        cursor: pointer;
+      }
+
+      a.nuxt-link-active{
+        border-bottom-style: solid;
+        border-bottom-color: $main-color1;
+      }
+
+      a{
+        color: $main-color2;
+        text-decoration: none;
+        &:visited{
+          color: $main-color2;
+        }
+      }
+    }
+  }
+}

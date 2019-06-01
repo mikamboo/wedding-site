@@ -1,68 +1,38 @@
 <template>
-  <div class="container">
-    <Nuxt/>
-  </div>
+  <section class="main">
+    <Menu class="floatleft"/>
+    <div class="floatleft container">
+      <Nuxt/>
+    </div>
+  </section>
 </template>
+<script>
+import Menu from "~/components/Menu.vue";
+export default {
+  components: {
+    Menu
+  }
+};
+</script>
 
-<style>
-html {
-  font-family: "Lobster", cursive, "Source Sans Pro", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  color: #2E495E;
-  background-color: #FFF4D1;
-}
+<style lang="scss">
+@import "../assets/sass/main.scss";
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.container {
-  min-height: 100vh;
+.main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #00C48D;
-  color: #00C48D;
-  text-decoration: none;
-  padding: 10px 30px;
-  display: inline-flex;
-  align-self: center;
-  margin: 5px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #00C48D;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #2E495E;
-  color: #2E495E;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin: 5px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #2E495E;
+@media screen and (max-width: 1000px) {
+  .main {
+    display: block;
+  }
+  .floatleft {
+    float: left;
+    width: 100%;
+  }
 }
 </style>

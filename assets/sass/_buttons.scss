@@ -1,0 +1,27 @@
+.button--green, .button--grey{
+  margin: 5px;
+  border-radius: 4px;
+  display: inline-flex;
+  text-decoration: none;
+  align-self: center;
+  padding: 8px 25px;
+}
+
+.button--green {
+  border: 1px solid $main-color3;
+  color: $main-color3;
+  
+  &:hover {
+    color: $color-white;
+    background-color: $main-color3;
+  }
+}
+
+.button--grey {
+  border: 1px solid $main-color2;
+  color: $main-color2;
+  &:hover {
+    color: $color-white;
+    background-color: #2E495E;
+  }
+}

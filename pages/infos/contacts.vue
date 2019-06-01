@@ -1,0 +1,14 @@
+<template>
+  <section class="infos-page">
+    <h1 class="subtitle">Contacts</h1>
+    <img width="64" src="~/assets/images/icons8-phone-96.png">
+    <p>Si vous avez des questions ou des suggestion vous pouvez contacter</p>
+    <br>
+    <p>
+      <b>Ian:</b>&nbsp;06.26.68.89.59
+    </p>
+    <p>
+      <b>Michael:</b>&nbsp;06.50.89.88.64
+    </p>
+  </section>
+</template>

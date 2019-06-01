@@ -1,0 +1,91 @@
+<template>
+  <section class="menu">
+    <NLink to="/">
+      <h1 class="title">Sidonie & Michaël</h1>
+    </NLink>
+    <Separator/>
+    <h2 class="subtitle">Save the date - Samedi 31 Août 2019</h2>
+    <div class="links">
+      <a
+        to="/rsvp"
+        class="button--green typeform-share"
+        href="https://sidonie-et-michael.typeform.com/to/gPDMft"
+        data-mode="drawer_left"
+        data-auto-open="false"
+        data-hide-headers="false"
+        data-hide-footer="false"
+        target="_blank"
+      >Confirmer présence</a>
+      <MenuTabs></MenuTabs>
+      <!-- <NLink to="/infos" class="button--grey">Informations utiles</NLink> -->
+    </div>
+  </section>
+</template>
+<script>
+import Separator from "~/components/Separator.vue";
+import MenuTabs from "~/components/MenuTabs.vue";
+
+export default {
+  components: {
+    Separator,
+    MenuTabs
+  },
+  mounted() {
+    //Load Typeform
+    (function() {
+      var qs,
+        js,
+        q,
+        s,
+        d = document,
+        gi = d.getElementById,
+        ce = d.createElement,
+        gt = d.getElementsByTagName,
+        id = "typef_orm_share",
+        b = "https://embed.typeform.com/";
+      if (!gi.call(d, id)) {
+        js = ce.call(d, "script");
+        js.id = id;
+        js.src = b + "embed.js";
+        q = gt.call(d, "script")[0];
+        q.parentNode.insertBefore(js, q);
+      }
+    })();
+  }
+};
+</script>
+<style lang="scss">
+.menu {
+  text-align: center;
+  a {
+    text-decoration: none;
+    &:visited {
+      color: #2E495E;
+    }
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+.title {
+  font-family: "Niconne";
+  display: block;
+  font-weight: 400;
+  color: #2E495E;
+  font-size: 3.9em;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 2em;
+  color: rgb(84, 73, 30);
+  padding-bottom: 5px;
+  font-family: "Niconne";
+}
+
+.links {
+  padding: 10px;
+}
+</style>
+
