@@ -10,7 +10,7 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Sido & Mike 💍 31.08.2019",
+    title: "Sido & Mike 31.08.2019",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },

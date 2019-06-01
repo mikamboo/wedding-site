@@ -6,7 +6,7 @@
 export default {
   mounted() {
     //-- Redirect to program page
-    this.$router.push("/infos/program");
+    this.$router.push("/program");
   }
 };
 </script>

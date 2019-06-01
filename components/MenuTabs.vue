@@ -14,9 +14,9 @@ export default {
   data() {
     return {
       routes: [
-        { path: "/infos/program", label: "Programme" },
-        { path: "/infos/cagnotte", label: "Cagnotte" },
-        { path: "/infos/contacts", label: "Contacts" }
+        { path: "/program", label: "Programme" },
+        { path: "/cagnotte", label: "Cagnotte" },
+        { path: "/contacts", label: "Contacts" }
       ]
     };
   }

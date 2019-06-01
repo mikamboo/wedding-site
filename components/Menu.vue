@@ -9,7 +9,7 @@
       <a
         to="/rsvp"
         class="button--green typeform-share"
-        href="https://sidonie-et-michael.typeform.com/to/gPDMft"
+        href="https://michael-po.typeform.com/to/gPDMft"
         data-mode="drawer_left"
         data-auto-open="false"
         data-hide-headers="false"
