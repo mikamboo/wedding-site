@@ -1,7 +1,7 @@
 // @import '~bulma-timeline'
 
 $color-white: #ffffff;
-$main-color1: #ff5757;
+$main-color1: #f75f5f;
 $main-color2: #2E495E;
 $main-color3: #00C48D;
 $main-color4: rgb(84, 73, 30);
@@ -51,6 +51,9 @@ hr{
 .infos-page {
   width: 500px;
   min-height: 300px;
+  img.icon{
+    width: 55px;
+  }
 }
 
 @media screen and (max-width: 1000px) {

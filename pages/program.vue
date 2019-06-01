@@ -2,7 +2,7 @@
   <section>
     <section class="infos-page">
       <h1 class="subtitle">Programme</h1>
-      <img width="64" src="~/assets/images/icons8-horloge-96.png">
+      <img class="icon" src="~/assets/images/icons8-horloge-96.png">
 
       <div class="timeline">
         <div v-for="step in steps" :key="step.id">
@@ -68,7 +68,7 @@ export default {
 <style lang="scss">
 .timeline {
   h2 {
-    color: #ff5757;
+    color: #ff5757c7;
     font-family: "Niconne";
     font-size: 1.45em;
   }

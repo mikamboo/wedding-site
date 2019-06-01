@@ -1,7 +1,7 @@
 <template>
   <section class="infos-page">
     <h1 class="subtitle">Contacts</h1>
-    <img width="64" src="~/assets/images/icons8-phone-96.png">
+    <img class="icon" src="~/assets/images/icons8-phone-96.png">
     <p>Si vous avez des questions ou des suggestions, contacter-nous</p>
     <br>
     <p>

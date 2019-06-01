@@ -4,8 +4,8 @@
       <h1 class="title">Sidonie & Michaël</h1>
     </NLink>
     <Separator/>
-    <h2 class="subtitle">Save the date
-      <br>Samedi 31 Août 2019
+    <h2 class="subtitle">Se diront Oui ...
+      <br>Le Samedi 31 Août 2019
     </h2>
     <div class="links">
       <a
@@ -73,14 +73,14 @@ export default {
   font-family: "Niconne";
   display: block;
   font-weight: 400;
-  color: #2E495E;
+  color: #e4a9a0;
   font-size: 3.8em;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 2em;
-  color: rgb(84, 73, 30);
+  color: #ab7329;
   padding-bottom: 5px;
   font-family: "Niconne";
 }
