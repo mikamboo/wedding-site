@@ -4,7 +4,9 @@
       <h1 class="title">Sidonie & Michaël</h1>
     </NLink>
     <Separator/>
-    <h2 class="subtitle">Save the date - Samedi 31 Août 2019</h2>
+    <h2 class="subtitle">Save the date
+      <br>Samedi 31 Août 2019
+    </h2>
     <div class="links">
       <a
         to="/rsvp"
@@ -17,7 +19,6 @@
         target="_blank"
       >Confirmer présence</a>
       <MenuTabs></MenuTabs>
-      <!-- <NLink to="/infos" class="button--grey">Informations utiles</NLink> -->
     </div>
   </section>
 </template>
@@ -73,7 +74,7 @@ export default {
   display: block;
   font-weight: 400;
   color: #2E495E;
-  font-size: 3.9em;
+  font-size: 3.8em;
 }
 
 .subtitle {
