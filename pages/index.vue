@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <img class="flyer" src="~/assets/images/chuttersnap-198430-unsplash.jpg" alt="Sido & Mike">
+  <section class="content-page">
+    <img class="flyer" src="~/assets/images/sido-mike-5.png" alt="Sido & Mike">
   </section>
 </template>
 

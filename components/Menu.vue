@@ -1,5 +1,5 @@
 <template>
-  <section class="menu">
+  <section class="header">
     <NLink to="/">
       <h1 class="title">Sidonie & Michaël</h1>
     </NLink>
@@ -56,7 +56,7 @@ export default {
 };
 </script>
 <style lang="scss">
-.menu {
+.header {
   text-align: center;
   a {
     text-decoration: none;
