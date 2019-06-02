@@ -7,8 +7,13 @@
     <p>
       <b>Ian (coordination):</b>&nbsp;06.26.68.89.59
     </p>
+    <br>
     <p>
       <b>Michael:</b>&nbsp;06.50.89.88.64
+    </p>
+    <br>
+    <p>
+      <b>Sidonie:</b>&nbsp;06.22.07.54.05
     </p>
   </section>
 </template>
