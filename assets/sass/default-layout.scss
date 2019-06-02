@@ -1,0 +1,41 @@
+
+.container {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content {
+  @extend .container;
+  .content-page {
+    width: 450px;
+    min-height: 300px;
+    img.icon {
+      width: 55px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    display: block;
+  }
+  .menu,
+  .content {
+    float: left;
+    width: 100%;
+  }
+  .container {
+    align-items: flex-start;
+  }
+}
