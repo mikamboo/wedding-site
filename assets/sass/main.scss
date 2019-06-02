@@ -39,25 +39,3 @@ hr{
   margin: 0;
   padding: 0;
 }
-
-.container {
-  min-height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.infos-page {
-  width: 500px;
-  min-height: 300px;
-  img.icon{
-    width: 55px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .container {
-    align-items: flex-start;
-  }
-}

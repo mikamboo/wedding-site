@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="content-page">
     <div>
       <h1>&copy; Sidonie & Michael 2019</h1>
     </div>

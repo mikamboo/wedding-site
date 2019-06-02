@@ -1,7 +1,7 @@
 <template>
   <section class="main">
-    <Menu class="floatleft"/>
-    <div class="floatleft container">
+    <Menu class="menu"/>
+    <div class="content">
       <Nuxt/>
     </div>
   </section>
@@ -17,22 +17,5 @@ export default {
 
 <style lang="scss">
 @import "../assets/sass/main.scss";
-
-.main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1000px) {
-  .main {
-    display: block;
-  }
-  .floatleft {
-    float: left;
-    width: 100%;
-  }
-}
+@import "../assets/sass/default-layout.scss";
 </style>

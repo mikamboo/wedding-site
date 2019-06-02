@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="content-page">
     <img class="flyer" src="~/assets/images/chuttersnap-198430-unsplash.jpg" alt="Sido & Mike">
   </section>
 </template>

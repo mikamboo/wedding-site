@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="infos-page">
+    <section class="content-page">
       <h1 class="subtitle">Programme</h1>
       <img class="icon" src="~/assets/images/icons8-horloge-96.png">
 

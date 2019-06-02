@@ -1,5 +1,5 @@
 <template>
-  <section class="infos-page">
+  <section class="content-page">
     <h1 class="subtitle">Cagnotte</h1>
     <img class="icon" src="~/assets/images/icons8-cadeau-96.png">
     <p>
